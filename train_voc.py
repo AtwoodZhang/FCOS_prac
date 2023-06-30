@@ -11,7 +11,7 @@ import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--epochs", type=int, default=30, help="number of epochs")
-parser.add_argument("--batch_size", type=int, default=16, help="size of each image batch")
+parser.add_argument("--batch_size", type=int, default=8, help="size of each image batch")
 parser.add_argument("--n_cpu", type=int, default=4, help="number of cpu threads to use during batch generation")
 parser.add_argument("--n_gpu", type=str, default='0,1', help="number of cpu threads to use during batch generation")
 opt = parser.parse_args()
